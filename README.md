@@ -1,5 +1,5 @@
 # Plug'n Play
-This project is a compilation of starter templates and component libraries for various frontend web development frameworks.
+This project is a collection of starter templates and component libraries for various frontend web development frameworks.
 
 ## What we have here
 Currently the project only has a [`Next.js starter`](/next-starter/) filled with useful components I've built over the past year of using the framework that I've had to copy and paste across several projects. These components range from simple buttons to complex app features complete with their own micro-interactive animations.
@@ -34,3 +34,9 @@ pnpm dev
 ```bash
 npx create-next-app [project-name] -e https://github.com/orunto/plug_n_play/next-starter
 ```
+
+## Contributing
+If you have a couple of components you think would help other devs get started with their projects or you have an entire starter template you'd like to share, lemme know [here](https://github.com/orunto/plug_n_play/discussions/categories/ideas)
+
+Contributions are not limited to Next.js or other frontend web development. 
+

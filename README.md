@@ -32,7 +32,16 @@ pnpm dev
 ### <u>Or you just want a specific starter</u>
 #### Next.js
 ```bash
-npx create-next-app [project-name] -e https://github.com/orunto/plug_n_play/next-starter
+# npm
+npx create-next-app [project-name] -e https://github.com/orunto/plug_n_play/next-starter-app
+
+npx create-next-app [project-name] -e https://github.com/orunto/plug_n_play/next-starter-pages
+
+# pnpm
+pnpm create next-app [project-name] -e https://github.com/orunto/plug_n_play/next-starter-app
+
+pnpm create next-app [project-name] -e https://github.com/orunto/plug_n_play/next-starter-pages
+
 ```
 
 ## Contributing

@@ -1,39 +1,30 @@
-# Plug'n Play for Next.js
-This is a [Next.js](https://nextjs.org/) starter consisting of all UI needs for your Next.js project.
+# Getting Started
+This nextjs (pages router) project was boostrapped with `pnpm create next-app`. To get started, install node modules using pnpm. Trust me it's just better that way 😉 
 
-## Getting Started
+OR 
 
-First, run the development server:
+You can convert it to an npm project before installing like this 👇
+- Delete `pnpm-lock.yaml`
+- Replace all pnpm calls to npm in `package.json`
+- `npm install`
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+
+## Pre installed packages
+- Styling is done with a combination of SASS and [`Tailwindcss`](https://v2.tailwindcss.com/docs/border-width).
+
+- Animation with the [`Animejs`](https://animejs.com/documentation/) and the [`AOS Library`](https://github.com/michalsnik/aos/) for simple scroll transitions
+
+## Structure
+```
+├───app
+├───components
+│   ├───atoms
+│   ├───molecules
+│   └───compounds
+├───fonts
+└───public
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Atom components are single function uncomplicated components like buttons 
+- Molecules are more complex and contain two or more atom components e.g Navbars
+- Compounds contain multiple molecule and atom components e.g Modal popup forms
